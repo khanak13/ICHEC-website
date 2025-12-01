@@ -1,0 +1,71 @@
+.blurredBG {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  background-size: cover;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  color: #000;
+  margin: 8px;
+}
+
+.blurredBG .parentBG {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 0 8px #d3f5cf;
+  z-index: 1;
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: 0.5s;
+  opacity: 0;
+  border-radius: 5px;
+}
+.sponsor-item {
+  padding: 16px;
+}
+.blurredBG:hover .parentBG {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.blurredBG .content {
+  background: linear-gradient(to bottom, #d3f5cf, #a8dbfa);
+  padding: 20px;
+  opacity: 0.9;
+}
+
+.blurredBG .bG {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(10px);
+}
+
+@media screen and (576px <= width <870px) {
+  .blurredBG,
+  .blurredBG .bG {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (width < 576px) {
+  .blurredBG,
+  .blurredBG .bG {
+    width: 200px;
+    height: 150px;
+    margin: 4px;
+  }
+  .content {
+    padding: 3px;
+    font-size: 11px;
+  }
+  .sponsor-item{
+    padding:4px;
+  }
+}

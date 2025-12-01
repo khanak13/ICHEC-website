@@ -1,0 +1,15 @@
+.SOCIALMEDIA {
+    height: 40px;
+    width: 40px;
+    position: static;
+    margin: 9px 5px 0 5px;
+    border: 1.5px solid white;
+    border-radius: 60%;
+    padding: -1px;
+}
+
+@media screen and (max-width: 767px) {
+    .SOCIALMEDIA{
+        margin: -10px 5px 15px 5px;
+    }
+}

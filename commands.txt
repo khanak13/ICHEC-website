@@ -1,0 +1,6 @@
+ls
+cd ConferenceWebsite
+git pull origin
+npm run build
+cd ~
+cp -r ConferenceWebsite/build/* ~/public_html/

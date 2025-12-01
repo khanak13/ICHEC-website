@@ -1,0 +1,349 @@
+.THEMEBOX-SHADOW {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* CSS */
+.button-71 {
+margin-top: 10px;
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+.LINE1{
+  width: 40%;
+  border: 2px solid #fff;
+}
+
+.LINE2{
+  width: 85%;
+  border: 2px solid #fff;
+}
+
+
+.NAVTEXT{
+  color: #000000;
+  font-size: 19px;
+  font-family: "Barlow", sans-serif;
+}
+
+.ABSTEXT{
+  color: #000000;
+  font-size: 19px;
+  font-family: "Barlow", sans-serif;
+}
+.themehead {
+  color: #545454;
+  font-family: "Eczar", serif;
+  font-size: 50px;
+}
+.REACHHEAD {
+  font-family: "Antonio", sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.he1 {
+  font-family: "Eczar", serif;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+}
+.themebox {
+  background-color: #ffffff;
+  height: min-content;
+  /* border: 2px solid #; */
+}
+.tourism {
+  background: #a150c8;
+  color: white;
+  /* border-radius: 100% 0% 100% 0% / 33% 67% 33% 67%  ; */
+  clip-path: polygon(0% 16.02%, 100% 1.5%, 100% 87.75%, 0.75% 99.25%);
+  padding-top: 11rem;
+  padding-bottom: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.TIMELINEHEAD{
+  font-size: 60px;
+  color: #545454;
+  font-family: "Eczar", serif;
+  width: 30%;
+}
+.TIMELINECONT{
+  height: 300px;
+  padding: 50px;
+  display: flex;
+}
+
+.REACHTEXT {
+  color: #ffffff;
+  font-family: "Antonio", sans-serif;
+  font-size: 22px;
+}
+
+.ABSTEXT2 {
+  font-family: "Barlow", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+.ABSTEXT3 {
+  color: #7fafff;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+}
+.MYTEXT {
+  font-size: 18px;
+}
+.CONFTEXT {
+  font-size: 28px;
+}
+#BookImg{
+  width: 100px;
+  aspect-ratio: inherit;
+}
+
+.ABSMAINCONT{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ABSMOBILECONT{
+  display: contents;
+}
+.back1s {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 50px;
+}
+#Headmarquee{
+  width: 100%;
+  height: 30px;
+  font-family: "Eczar", serif;
+  color: red;
+  font-size: 24px;
+  background:  linear-gradient(to right, #D3F5CF, #A8DBFA, #635EE2);
+  margin-top: 60px;
+  margin-bottom: -6px;
+}
+
+@media screen and (870px <= width < 1276px ) {
+  .back1s {
+    padding: 40px 130px 40px 130px;
+    margin: 30px;
+  }
+  /* .ABSMOBILECONT{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  } */
+  .ABSMOBILEBUTTONCLASS2{
+    width: 40%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .ABSMOBILEBUTTONCLASS2 .btn{
+    padding: 1%;
+    font-size: 15px;
+    
+    /* padding-bottom: 15px; */
+  
+  }
+  .ABSMOBILEBUTTONCLASS1 .btn{
+    padding: 0.8%;
+    /* padding-left: 10px; */
+    font-size: 15px;
+    /* padding-right: 15px; */
+  }
+
+  .ABSMOBILEBUTTONCLASS1 .p{
+    margin-top: -10px;
+  }
+  .SEPLINE{
+    margin-top: 20px;
+  }
+  /* .BUTTONTABVIEW{
+    font-size: 18px;
+    padding: 2%;
+  } */
+
+}
+@media screen and (576px <= width <870px ) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+  .back1s {
+    padding: 10px;
+    margin: 20px;
+  }
+  .themebox {
+    margin: 20px;
+  }
+  .vr {
+    display: none;
+  }
+  .TIMELINEHEAD{
+    font-size: 30px;
+    width: 100%;
+  }
+  .TIMELINECONT{
+    display: contents;
+  }
+  .SEPLINE{
+    margin-top: 30px;
+  }
+  .BUTTONTABVIEW{
+    font-size: 15px;
+    padding: 1%;
+  }
+  .themehead, .REACHHEAD {
+    font-size: 36px;
+  }
+  .LINE1, .LINE2{
+    width: 90%;
+  }
+}
+
+@media screen and (width < 576px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+  .ABSTEXT{
+    font-size: 12px;
+  }
+  .themehead {
+    font-size: 28px;
+  }
+  .he1{
+    font-size: 15px;
+  }
+  .themebox{
+    height: 75px;
+  }
+  .TIMELINECONT{
+    display: contents;
+  }
+  .VRCONTROL{
+    display: none;
+  }
+  .TIMELINEHEAD{
+    font-size: 30px;
+    width: 100%;
+  }
+  .REACHHEAD{
+    font-size: 25px;
+  }
+  .ABSTEXT2{
+    font-size: 12px;
+  }
+  .REACHTEXT{
+    font-size: 12px;
+  }
+  .MYTEXT{
+    font-size: 12px;
+  }
+  .CONFTEXT{
+    font-size: 15px;
+  }
+  .ABSMAINCONT{
+    display: contents;
+  }
+  .ABSMOBILECONT{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .ABSMOBILEBUTTONCLASS2{
+    width: 40%;
+  }
+  .ABSMOBILEBUTTONCLASS2 .btn{
+    padding: 1%;
+  }
+  .ABSMOBILEBUTTONCLASS1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .ABSMOBILEBUTTONCLASS1 .p{
+    margin-top: -10px;
+  }
+  .SEPLINE{
+    display: none;
+  }
+  .ABSCONMOBILE{
+   border: 5px solid #fff;
+
+   border-radius: 10px;
+   margin: 3px;
+   padding-bottom: 3px;
+   display: grid;
+  justify-content: center;
+
+  }
+  .ABSCONMOBILE .btn{
+    margin-top: 0px;
+   
+  }
+  .ABSTEXT3{
+    font-size: 14px;
+  }
+  .LINE1, .LINE2{
+    width: 90%;
+  }
+  .button-71{
+    font-size: 12px;
+    padding: 11px 12px;
+  }
+  .back1s {
+    padding: 10px;
+    margin: 20px;
+  }
+  .themebox {
+    margin: 20px;
+  }
+  .vr {
+    display: none;
+  }
+  .ABSBUTTONMOBILEFIX{
+    margin: auto;
+  }
+}

@@ -1,0 +1,145 @@
+#p1 {
+  font-family: "Antonio", sans-serif;
+  color: #2fa9d6;
+}
+#p2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+#p3 {
+  font-family: "Antonio", sans-serif;
+  color: #ffffff;
+}
+#p4 {
+  font-family: "Antonio", sans-serif;
+  color: #ffffff;
+}
+.back1 {
+  padding: 40px;
+  background-color: #333333;
+}
+.back1s {
+  background-color: #A8DBFA;
+
+  border-radius: 20px;
+}
+.back3s {
+  background-color: #8a7eff;
+
+  border-radius: 20px;
+}
+.back2 {
+  padding: 40px;
+  background-color: #e6f4f1;
+}
+
+.hea1 {
+  font-family: "Eczar", serif;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+.he2 {
+  color: #ffffff;
+  font-size: 19px;
+  font-family: "Barlow", sans-serif;
+}
+.hea2 {
+  color: #000000;
+  font-size: 19px;
+  font-family: "Barlow", sans-serif;
+}
+.theme {
+  /* background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),url('../images/6.png');
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;  */
+}
+
+
+
+
+
+
+
+.r6 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.r7 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.divider-line {
+  width: 70%;
+  border: 2.5px solid #e7e7e9;
+}
+.r9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.z1 {
+  color: #15517d;
+  font-family: "Antonio", sans-serif;
+}
+.z2,
+.z4 {
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+.z3 {
+  color: #004aad;
+  font-family: "Barlow", sans-serif;
+}
+.o1 {
+  background-color: #2fa9d6;
+}
+
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+.gmap_iframe {
+  height: 400px !important;
+}
+.BoxClass {
+}
+
+.blockr {
+  display: block;
+}
+
+.places {
+  width: 90vw;
+  align-items: center;
+}
+.Placeimg {
+  position: relative;
+}
+
+
+
+@media screen and (width <= 768px) {
+
+}
+@media screen and (width > 768px) {
+
+}
+
