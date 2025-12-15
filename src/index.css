@@ -1,6 +1,13 @@
 :root {
-  --brand: #062a5b;
-  --accent: #f1b33a;
+  --brand: #0a1a2b;       /* dark navy */
+  --brand-light: #10293f; /* lighter navy for cards */
+  --text-light: #d8e2ec;
+  --text-muted: #94a3b8;
+  --accent: #f1b33a;      /* gold highlight */
+
+  --surface: #111827;     /* card background */
+  --surface-alt: #020617; /* deeper background */
+  --border-subtle: #1f2933;
 }
 
 * {
@@ -10,7 +17,8 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  color: #222;
+  background-color: #020617; /* darker slate */
+  color: var(--text-light);
   scroll-behavior: smooth;
 }
 
@@ -32,12 +40,13 @@ body {
   color: #fff;
   background: linear-gradient(
       0deg,
-      rgba(6, 42, 91, 0.65),
-      rgba(6, 42, 91, 0.25)
+      rgba(6, 24, 58, 0.85),
+      rgba(6, 24, 58, 0.4)
     ),
     url("./assets/hero.jpg") center/cover no-repeat;
   padding-top: 5.5rem;
 }
+
 
 section {
   padding: 72px 0;
@@ -45,17 +54,17 @@ section {
 
 .card-simple {
   border-radius: 0.75rem;
-  border: 1px solid #e4e4e4;
+  border: 1px solid var(--border-subtle);
   padding: 1.25rem 1.5rem;
-  background: #fff;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  background: var(--surface);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
 }
 
 .countdown-box {
   border-radius: 0.75rem;
-  background: #fff;
+  background: var(--surface);
   padding: 1rem 1.5rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
@@ -63,13 +72,14 @@ section {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #666;
+  color: var(--text-muted);
 }
 
 .countdown-value {
   font-size: 1.1rem;
   font-weight: 700;
   margin-top: 0.25rem;
+  color: var(--text-light);
 }
 
 .sponsors-row img {
@@ -78,14 +88,14 @@ section {
 }
 
 footer {
-  background: #071433;
-  color: #ddd;
+  background: #020617;
+  color: var(--text-muted);
   padding: 3rem 0;
   margin-top: 3rem;
 }
 
 footer a {
-  color: #fff;
+  color: var(--text-light);
   text-decoration: none;
 }
 
@@ -95,3 +105,5 @@ footer a {
     text-align: center;
   }
 }
+
+

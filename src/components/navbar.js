@@ -1,10 +1,12 @@
 // src/components/navbar.js
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useLocation } from "react-router-dom";
+
 
 function Navbar() {
   const [openDropdown, setOpenDropdown] = useState(null);
-
+  const location = useLocation();
+  const isHome = location.pathname === "/";
   const toggleDropdown = (name) => {
     setOpenDropdown((prev) => (prev === name ? null : name));
   };
@@ -46,6 +48,13 @@ function Navbar() {
         {/* Nav items */}
         <div className="collapse navbar-collapse" id="mainNav">
           <ul className="navbar-nav ms-auto align-items-lg-center">
+            {!isHome && (
+              <li className="nav-item">
+              <NavLink className="nav-link" to="/" onClick={closeDropdown}>
+                Home
+              </NavLink>
+            </li> 
+            )}
             {/* About dropdown */}
             <li className={`nav-item dropdown ${openDropdown === "about" ? "show" : ""}`}>
               <button

@@ -6,7 +6,7 @@ import Navbar from "./components/navbar";
 // pages
 import Home from "./pages/Home";
 import Registration from "./pages/Registration";
-import Awards from "./pages/Awards";
+
 
 // About
 import AboutOverview from "./pages/about/AboutOverview";
@@ -54,7 +54,7 @@ function App() {
 
         {/* Other */}
         <Route path="/registration" element={<Registration />} />
-        <Route path="/awards" element={<Awards />} />
+       
       </Routes>
 
       <footer>
