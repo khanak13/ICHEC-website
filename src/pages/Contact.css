@@ -1,0 +1,57 @@
+/* Page container */
+.contact-page {
+  max-width: 720px;
+  margin: 8rem auto;          /* moves the block down */
+  padding: 3rem 3.5rem;
+  background: #6989e0;
+  border-radius: 10px;
+
+  /* subtle professional shadow */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+
+  /* professional font */
+  font-family: "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Page heading */
+.contact-page h1 {
+  font-size: 2.1rem;
+  font-weight: 700;           /* bold CONTACT */
+  margin-bottom: 1.8rem;
+  color: #000000;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 0.6rem;
+}
+
+/* Paragraph styling */
+.contact-page p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #262535;
+  margin-bottom: 1.1rem;
+}
+
+/* Highlight explaining labels */
+.contact-page strong {
+  font-weight: 600;
+  color: #1a1717;
+}
+
+/* Email links */
+.contact-page a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-page a:hover {
+  text-decoration: underline;
+}
+
+/* Slight spacing improvement on smaller screens */
+@media (max-width: 768px) {
+  .contact-page {
+    margin: 5rem 1rem;
+    padding: 2rem;
+  }
+}
+
