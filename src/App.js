@@ -12,15 +12,15 @@ import Contact from "./pages/Contact";
 import AboutOverview from "./pages/about/AboutOverview";
 import AboutHistory from "./pages/about/AboutHistory";
 import AboutCommittee from "./pages/about/AboutCommittee";
-import AboutTrackChair from "./pages/about/AboutTrackChair";
+
 
 // Program
-import ProgramOverview from "./pages/program/ProgramOverview";
+
 import ProgramSpeakers from "./pages/program/ProgramSpeakers";
 
 // Travel
 import TravelPatna from "./pages/travel/TravelPatna";
-import TravelVisa from "./pages/travel/TravelVisa";
+
 
 // Industry
 import IndustryPatron from "./pages/industry/IndustryPatron";
@@ -41,15 +41,15 @@ function App() {
           <Route path="/about" element={<AboutOverview />} />
           <Route path="/about/history" element={<AboutHistory />} />
           <Route path="/about/committee" element={<AboutCommittee />} />
-          <Route path="/about/track-chair" element={<AboutTrackChair />} />
+      
 
           {/* Program */}
-          <Route path="/program" element={<ProgramOverview />} />
+      
           <Route path="/program/speakers" element={<ProgramSpeakers />} />
 
           {/* Travel */}
           <Route path="/travel/patna" element={<TravelPatna />} />
-          <Route path="/travel/visa" element={<TravelVisa />} />
+         
 
           {/* Industry */}
           <Route path="/industry/patron" element={<IndustryPatron />} />
@@ -84,7 +84,7 @@ function App() {
                   href="mailto:ichec@iitp.ac.in"
                   style={{ color: "#d8e2ec", textDecoration: "none" }}
                 >
-                  ichec@iitp.ac.in
+                  ichec2026@iitp.ac.in
                 </a>
               </p>
               <p className="small mb-0">Phone: +91 612 302 5000</p>
@@ -96,7 +96,7 @@ function App() {
                 alt="IIT Patna Logo"
                 style={{
                   height: "80px",
-                  background: "white",
+                  background: "#ffffff00",
                   padding: "8px",
                   borderRadius: "6px",
                   display: "inline-block",

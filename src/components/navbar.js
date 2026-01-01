@@ -97,87 +97,37 @@ function Navbar() {
                     Organizing Committee
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/about/track-chair"
-                    onClick={closeDropdown}
-                  >
-                    Track Chair
-                  </NavLink>
-                </li>
+              
               </ul>
             </li>
 
-            {/* Program dropdown */}
-            <li className={`nav-item dropdown ${openDropdown === "program" ? "show" : ""}`}>
-              <button
-                className="nav-link dropdown-toggle btn btn-link"
-                type="button"
-                onClick={() => toggleDropdown("program")}
+            {/* speakers */}
+         
+                
+              <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/program/speakers"
+                onClick={closeDropdown}
               >
-                Program
-              </button>
-              <ul
-                className={`dropdown-menu dropdown-menu-end ${
-                  openDropdown === "program" ? "show" : ""
-                }`}
-              >
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/program"
-                    onClick={closeDropdown}
-                  >
-                    Program Overview
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/program/speakers"
-                    onClick={closeDropdown}
-                  >
-                    Speakers
-                  </NavLink>
-                </li>
-              </ul>
+                Speakers
+              </NavLink>
             </li>
+
+         
 
             {/* Travel dropdown */}
-            <li className={`nav-item dropdown ${openDropdown === "travel" ? "show" : ""}`}>
-              <button
-                className="nav-link dropdown-toggle btn btn-link"
-                type="button"
-                onClick={() => toggleDropdown("travel")}
+   
+              <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/travel/patna"
+                onClick={closeDropdown}
               >
                 Travel
-              </button>
-              <ul
-                className={`dropdown-menu dropdown-menu-end ${
-                  openDropdown === "travel" ? "show" : ""
-                }`}
-              >
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/travel/patna"
-                    onClick={closeDropdown}
-                  >
-                    Patna / Travel Info
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/travel/visa"
-                    onClick={closeDropdown}
-                  >
-                    VISA Instructions
-                  </NavLink>
-                </li>
-              </ul>
+              </NavLink>
             </li>
+
 
             {/* Industry Ties dropdown */}
             <li className={`nav-item dropdown ${openDropdown === "industry" ? "show" : ""}`}>
@@ -199,7 +149,7 @@ function Navbar() {
                     to="/industry/patron"
                     onClick={closeDropdown}
                   >
-                    Become a Patron/Exhibitor
+                    Become a sponsor
                   </NavLink>
                 </li>
                 <li>
